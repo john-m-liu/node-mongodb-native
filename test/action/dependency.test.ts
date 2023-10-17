@@ -124,7 +124,6 @@ describe('package.json', function () {
     'sparse-bitfield',
     'memory-pager',
     'mongodb-connection-string-url',
-    'whatwg-url',
     'webidl-conversions',
     'tr46'
   ];

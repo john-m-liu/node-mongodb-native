@@ -3,7 +3,6 @@ import type { SrvRecord } from 'dns';
 import * as http from 'http';
 import { clearTimeout, setTimeout } from 'timers';
 import * as url from 'url';
-import { URL } from 'url';
 
 import { type Document, ObjectId, resolveBSONOptions } from './bson';
 import type { Connection } from './cmap/connection';

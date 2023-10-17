@@ -73,13 +73,13 @@ tests:
         options: ~
     -
         description: "Single hostname (resembling IPv4) without port"
-        uri: "mongodb://256.0.0.1"
+        uri: "mongodb://127.0.0.1"
         valid: true
         warning: false
         hosts:
             -
                 type: "hostname"
-                host: "256.0.0.1"
+                host: "127.0.0.1"
                 port: ~
         auth: ~
         options: ~
